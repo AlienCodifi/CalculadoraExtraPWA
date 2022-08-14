@@ -1,0 +1,97 @@
+.flexEstacionContainers {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 20px 0;
+
+}
+
+.Estacion {
+    flex: 1;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+
+}
+
+.Octanaje {
+    height: 80px;
+}
+
+.OctanoInput {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.PriceInput {
+    flex: 1;
+    max-width: 100px;
+    max-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 10px
+}
+
+.OilType {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.LabelPrecio {
+    margin: 0 10px;
+    font-size: 12px;
+    text-align: start;
+    color: azure;
+    font-weight: 500;
+}
+
+input {
+    border: none;
+    border-radius: 0px;
+}
+
+.OctanosLabel {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: start;
+    width: 100%;
+    border-bottom: 2px solid;
+    border-color: #666666;
+}
+
+.DashboardContainer {
+    display: flex;
+}
+
+
+
+h4,
+h5,
+p {
+    margin: 0 0px 5px 0px;
+    padding: 0;
+}
+
+p {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+h5 {
+    color: #666666;
+    margin-left: 5px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+h4{font-size: 20px;}
